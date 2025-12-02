@@ -4,6 +4,8 @@ CS2 Demo-Based Real-Time Radar Visualizer
 
 This application visualizes player positions in real-time on a radar by reading data from a CS2 demo file.
 
+[Reddit thread reporting it](https://redd.it/1pca92m)
+
 ![Preview](https://github.com/2xxn/cs2-realtime-demo-radar-visualizer/blob/main/assets/preview.png)
 
 ## How it works
@@ -19,7 +21,7 @@ This is only a PoC though, so it may not work perfectly in all cases.
 ```bash
 git clone https://github.com/2xxn/cs2-realtime-demo-radar-visualizer
 cd cs2-realtime-demo-radar-visualizer
-go build -o radar-visualizer main.go
+go build -o radar-visualizer.exe .
 ```
 
 ## Usage
