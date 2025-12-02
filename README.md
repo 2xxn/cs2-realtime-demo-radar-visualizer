@@ -38,7 +38,7 @@ record demo
 Once you confirm by pressing Enter, the application will start visualizing the radar in real-time on [localhost:8080](http://localhost:8080).
 
 ## Showcase Preview
-<video controls src="https://github.com/2xxn/cs2-realtime-demo-radar-visualizer/raw/main/assets/preview.mp4" title="Preview"></video>
+https://github.com/2xxn/cs2-realtime-demo-radar-visualizer/raw/main/assets/preview.mp4
 
 ## Disclaimer
 Do not use this tool in competitive matches or in any way that violates the game's terms of service. While undetectable by the game, this tool is intended for educational and personal use only.
