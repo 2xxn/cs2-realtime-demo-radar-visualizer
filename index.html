@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CS2 Demo-Based Real-Time Radar Visualizer PoC</title>
+    </head>
+    <body>
+        <h1>CS2 Demo-Based Real-Time Radar Visualizer PoC</h1>
+        <center><img src="/map" /></center>
+        <script>
+            // qp to prevent cache
+            setInterval(() => { document.querySelector("img").src = "/map?" + new Date().getTime(); }, 1000);
+        </script>
+    </body>
+</html>
