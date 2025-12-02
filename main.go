@@ -126,7 +126,6 @@ func processDemo(f *os.File) {
 	draw.Draw(img, mapRadarImg.Bounds(), mapRadarImg, image.Point{}, draw.Over)
 
 	for _, player := range p.GameState().Participants().Playing() {
-		fmt.Println("Processing player:", player.Name)
 		if !player.IsAlive() {
 			continue // Skip dead players
 		}
