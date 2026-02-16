@@ -1,5 +1,8 @@
 # cs2-realtime-demo-radar-visualizer
 
+> [!WARNING]
+> This exploit was patched approximately 1 week after I published this repo.
+
 CS2 Demo-Based Real-Time Radar Visualizer
 
 This application visualizes player positions in real-time on a radar by reading data from a CS2 demo file.
